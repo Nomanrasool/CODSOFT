@@ -45,3 +45,4 @@ This project was developed as part of a data science initiative. The dataset use
 ### 3. Navigate to the Script Directory
 * Open a terminal or command prompt and navigate to the directory where the titanic_app.py script is located.
 ### 4. Run the Streamlit App
+#### i. Install Streamlit and Ngrok:
