@@ -35,3 +35,13 @@ The Titanic Survival Prediction project aims to predict passenger survival based
 
 ## Acknowledgments
 This project was developed as part of a data science initiative. The dataset used is sourced from Kaggle, and the project code is available on https://github.com/Nomanrasool/CODSOFT/tree/main/Task-1. Special thanks to the previous contributors whose efforts laid the groundwork for this analysis.
+
+
+## Running the Application
+### 1. Download the code
+* Download the provided Python script (titanic_app.py) to your local machine.
+### 2. Download the Pre-trained Model
+* Make sure you have the pre-trained Random Forest model file (rf_final_model.pkl) available. If you don't have it, you can train the model using the provided code and save it using Pickle.
+### 3. Navigate to the Script Directory
+* Open a terminal or command prompt and navigate to the directory where the titanic_app.py script is located.
+### 4. Run the Streamlit App
