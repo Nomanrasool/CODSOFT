@@ -37,6 +37,9 @@ The Titanic Survival Prediction project aims to predict passenger survival based
 This project was developed as part of a data science initiative. The dataset used is sourced from Kaggle, and the project code is available on https://github.com/Nomanrasool/CODSOFT/tree/main/Task-1. Special thanks to the previous contributors whose efforts laid the groundwork for this analysis.
 
 
+### NOTE:- Before running the jupyter notebook please ensure that you have the necessary libraries installed.
+pip install -r requirements.txt
+
 ## Running the Application
 ### 1. Download the code
 * Download the provided Python script (titanic_app.py) to your local machine.
@@ -46,3 +49,30 @@ This project was developed as part of a data science initiative. The dataset use
 * Open a terminal or command prompt and navigate to the directory where the titanic_app.py script is located.
 ### 4. Run the Streamlit App
 #### i. Install Streamlit and Ngrok:
+
+!pip install streamlit pyngrok
+
+### ii. Run the Streamlit app
+
+!streamlit run /content/drive/MyDrive/Task-1/titanic_app.py
+!nohup streamlit run /content/drive/MyDrive/Task-1/titanic_app.py &
+
+### iii. Set up Ngrok for Public URL:
+
+from pyngrok import ngrok
+
+public_url = ngrok.connect(8501)
+print("Public Url: ", public_url)
+
+### iv. Streamlit App Code:
+
+Run the code of titanic_survival.app
+
+### Access the Application
+* After running the above commands, Ngrok will provide a public URL. Open this URL in your web browser to access the application.
+
+### Use the Application
+* The application will open in your web browser. Enter the values for Pclass, Sex, Age, Fare, Embarked, FamilySize, and isAlone input fields. Click the "Predict" button to see the survival prediction based on the entered values.
+* Click the "Predict" button to see the predicted sales based on the entered values.
+
+
