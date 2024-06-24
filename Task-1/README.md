@@ -55,6 +55,7 @@ This project was developed as part of a data science initiative. The dataset use
 ### ii. Run the Streamlit app
 
 `!streamlit run /content/drive/MyDrive/Task-1/titanic_app.py`
+
 `!nohup streamlit run /content/drive/MyDrive/Task-1/titanic_app.py &`
 
 ### iii. Set up Ngrok for Public URL:
@@ -62,6 +63,7 @@ This project was developed as part of a data science initiative. The dataset use
 `from pyngrok import ngrok`
 
 `public_url = ngrok.connect(8501)`
+
 `print("Public Url: ", public_url)`
 
 ### iv. Streamlit App Code:
