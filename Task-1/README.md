@@ -68,11 +68,18 @@ print("Public Url: ", public_url)
 
 Run the code of titanic_survival.app
 
-### Access the Application
+### 5. Access the Application
 * After running the above commands, Ngrok will provide a public URL. Open this URL in your web browser to access the application.
 
-### Use the Application
+### 6. Use the Application
 * The application will open in your web browser. Enter the values for Pclass, Sex, Age, Fare, Embarked, FamilySize, and isAlone input fields. Click the "Predict" button to see the survival prediction based on the entered values.
-* Click the "Predict" button to see the predicted sales based on the entered values.
+* Click the "Predict" button to see the predicted Survival based on the entered values.
 
+![Screenshot (118)](https://github.com/Nomanrasool/CODSOFT/assets/100754692/6dee7201-b507-4a78-b0a5-47c5400c4f07)
 
+### 7. Close the Application:
+
+* Close the web browser window when you are done using the application.
+
+### Customization
+* To customize the application or models, edit the respective sections in the provided code files.
