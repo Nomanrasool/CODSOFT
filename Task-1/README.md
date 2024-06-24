@@ -27,3 +27,11 @@ The Titanic Survival Prediction project aims to predict passenger survival based
 
 # Project Report 
 ### Linear Regression vs Random Forest
+* In comparing the two models, Random Forest Classifier outperforms Linear Regression in terms of both prediction accuracy and explanatory power. The Random Forest model has a higher accuracy (0.832) and weighted avg (0.83 0.83 0.83 179) compared to Linear Regression Model accuracy (0.793) and weighted avg (0.79 0.79 0.79 179).
+### Conclusion and Recommendations
+* The Random Forest Classifier is recommended for predicting Titanic passenger survival, with an accuracy of 0.832 compared to 0.793 for Logistic Regression. It shows superior performance in precision, recall, and f1-score, effectively capturing complex feature interactions. This model provides valuable insights into factors influencing survival and can guide further predictive modeling efforts.
+### Future Work
+* Future work could involve exploring more advanced machine learning techniques, feature engineering, and incorporating additional features for a more comprehensive analysis. Techniques such as gradient boosting or neural networks might further improve prediction accuracy. Additionally, conducting more extensive hyperparameter tuning and cross-validation could yield better model performance.
+
+## Acknowledgments
+This project was developed as part of a data science initiative. The dataset used is sourced from Kaggle, and the project code is available on [GitHub Repository Link]. Special thanks to the previous contributors whose efforts laid the groundwork for this analysis.
