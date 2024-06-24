@@ -38,7 +38,7 @@ This project was developed as part of a data science initiative. The dataset use
 
 
 ### NOTE:- Before running the jupyter notebook please ensure that you have the necessary libraries installed.
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Running the Application
 ### 1. Download the code
@@ -50,19 +50,19 @@ pip install -r requirements.txt
 ### 4. Run the Streamlit App
 #### i. Install Streamlit and Ngrok:
 
-!pip install streamlit pyngrok
+`!pip install streamlit pyngrok`
 
 ### ii. Run the Streamlit app
 
-!streamlit run /content/drive/MyDrive/Task-1/titanic_app.py
-!nohup streamlit run /content/drive/MyDrive/Task-1/titanic_app.py &
+`!streamlit run /content/drive/MyDrive/Task-1/titanic_app.py
+!nohup streamlit run /content/drive/MyDrive/Task-1/titanic_app.py &`
 
 ### iii. Set up Ngrok for Public URL:
 
-from pyngrok import ngrok
+`from pyngrok import ngrok`
 
-public_url = ngrok.connect(8501)
-print("Public Url: ", public_url)
+`public_url = ngrok.connect(8501)`
+`print("Public Url: ", public_url)`
 
 ### iv. Streamlit App Code:
 
