@@ -34,4 +34,4 @@ The Titanic Survival Prediction project aims to predict passenger survival based
 * Future work could involve exploring more advanced machine learning techniques, feature engineering, and incorporating additional features for a more comprehensive analysis. Techniques such as gradient boosting or neural networks might further improve prediction accuracy. Additionally, conducting more extensive hyperparameter tuning and cross-validation could yield better model performance.
 
 ## Acknowledgments
-This project was developed as part of a data science initiative. The dataset used is sourced from Kaggle, and the project code is available on [GitHub Repository Link]. Special thanks to the previous contributors whose efforts laid the groundwork for this analysis.
+This project was developed as part of a data science initiative. The dataset used is sourced from Kaggle, and the project code is available on https://github.com/Nomanrasool/CODSOFT/tree/main/Task-1. Special thanks to the previous contributors whose efforts laid the groundwork for this analysis.
