@@ -54,8 +54,8 @@ This project was developed as part of a data science initiative. The dataset use
 
 ### ii. Run the Streamlit app
 
-`!streamlit run /content/drive/MyDrive/Task-1/titanic_app.py
-!nohup streamlit run /content/drive/MyDrive/Task-1/titanic_app.py &`
+`!streamlit run /content/drive/MyDrive/Task-1/titanic_app.py`
+`!nohup streamlit run /content/drive/MyDrive/Task-1/titanic_app.py &`
 
 ### iii. Set up Ngrok for Public URL:
 
