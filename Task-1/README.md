@@ -38,7 +38,7 @@ This project was developed as part of a data science initiative. The dataset use
 
 
 ### NOTE:- Before running the jupyter notebook please ensure that you have the necessary libraries installed.
-`pip install -r requirements.txt`
+`pip install -r requirement.txt`
 
 ## Running the Application
 ### 1. Download the code
